@@ -1,15 +1,14 @@
 {
-  "id": 1,
-  "numero": "917313586",
-  "mensagem": "Teste 1"
-},
-{
-  "id": 2,
-  "numero": "917313586",
-  "mensagem": "Teste 2"
-},
-{
-  "id": 3,
-  "numero": "917313586",
-  "mensagem": "Teste 3"
+  "posts": [
+    { "id": 1, "mensagem": "Post 1" },
+    { "id": 2, "mensagem": "Post 2" },
+    { "id": 3, "mensagem": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
