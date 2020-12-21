@@ -1,4 +1,5 @@
 {
+  "posts": [
   "SMSToSend": [
     
     {
@@ -37,5 +38,6 @@
       "StatusId": -1,
       "EnterpriseId": 408
     }
+  ]
   ]
 }
